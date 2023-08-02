@@ -1,0 +1,13 @@
+.social-menu{
+position: absolute;
+top: 50%;
+left: 100%;
+padding: 0;
+margin: 0;
+transform: translate(-50%,-50%);
+display: flex;
+}
+
+.footer{
+  object-position: bottom;
+}
