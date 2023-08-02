@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+font-family: sans-serif;
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0,0.75),rgba(0,0,0,0,0.75)),url(../image/img10.jpg),no-repeat center fixed;
+	background-size: cover;
+}
+h3{
+	text-align: center;
+}
+.container{
+	color: white;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+}
+.container h1{
+	font-family: 'Hebbo', sans-serif;
+	color: black;
+	font-size: 40px;
+	border-bottom: 5px solid darkred;
+	margin-bottom: 43px;
+	padding: 13px 0;
+}
+.box{
+	width: 100%;
+	margin: 32px 0px;
+	border-bottom: 2px solid darkred;
+	
+}
+.box input{
+	background: none;
+width: 65%;
+
+padding: 5px 5px;
+font-size: 20px;
+border: none;
+outline: none;
+color: white;
+}
+.box i{
+	padding: 0px 12px;
+	width:29px;
+	text-align: center;
+}
+.btn{
+	position: absolute;
+	color: white;
+	cursor: pointer;
+	outline: none;
+	width: 15%;
+	margin: 12px 0;
+	padding: 3px;
+	border: 2px solid darkred;
+	border-radius: 10px;
+	font-size: 16px;
+	background: none;
+}
+.btn:hover{
+	color: darkred;
+	background: whitesmoke;
+
+}
+
+ul{
+	float: right;
+   list-style-type: none;
+   margin-top: 30px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.7s ease;
+}
+ul li a:hover
+{
+	background-color: white;
+	color: black;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+
+}
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+	margin-top: 30px;
+	margin-left: 20px;
+}
